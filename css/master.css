@@ -8,7 +8,7 @@ body {
 /* Start Landing Page header*/
 .landing-page{
     min-height: 100vh;
-    background-image: url('../image/Houses_Coast_USA_Tampa_Night_Florida_536636_1920x1080.jpg');
+    /* background-image: url('../image/Houses_Coast_USA_Tampa_Night_Florida_536636_1920x1080.jpg'); */
     background-size: cover;
 }
 .landing-page .overlay{
