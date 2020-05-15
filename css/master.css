@@ -1,0 +1,77 @@
+:root {
+    --main--color: #ff9800;
+}
+body {
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+/* Start Landing Page */
+.landing-page{
+    min-height: 100vh;
+    background-image: url('../image/Houses_Coast_USA_Tampa_Night_Florida_536636_1920x1080.jpg');
+    background-size: cover;
+}
+.landing-page .overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.header-area {
+    z-index: 2;
+    position: relative;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+}
+.header-area .logo {
+    padding: 15px;
+    width: 400px;
+}
+.header-area .links {
+    list-style: none;
+    text-align: right;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 15px;
+    font-size: 15px;
+}
+.header-area .links li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.header-area .links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.header-area .links li a:hover,
+.header-area .links li a.active  {
+    color: var(--main--color);
+}
+
+.introduction-text {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+.introduction-text  h1{
+    font-size: 45px;
+    margin: 0 0 12px;
+}
+.introduction-text  h1 span{
+    color: var(--main--color);
+}
+.introduction-text  p{
+    line-height: 1.6;
+    font-size: 17px;
+    margin: 0;
+}
+/* End Landing Page */
